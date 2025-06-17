@@ -16,7 +16,7 @@ try {
     $mail->Host       = 'smtp.gmail.com'; 
     $mail->SMTPAuth   = true; 
     $mail->Username   = 'specialkey010@gmail.com'; 
-    $mail->Password   = 'ygid vrti yiga gjzy'; 
+    $mail->Password   = ''; 
     $mail->SMTPKeepAlive = true; // Mantener la conexión activa
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
     $mail->Port       = 587;
