@@ -1,0 +1,182 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #2c3625;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+header {
+  background-color: #8eb478;
+  width: 100%;
+  height: inherit;
+}
+
+header ul {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  height: inherit;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+#speciallogo {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+#speciallogo img {
+  width: 50px;
+  height: 50px;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8eb478;
+}
+
+#login img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+#login h2 {
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  width: 100%;
+  background-color: #ffffff;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 100px 0px;
+}
+
+section {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section img {
+  width: 200px;
+  height: 200px;
+}
+
+#tienda a {
+  color: #394630;
+}
+
+a {
+  text-decoration: none;
+  color: #394630;
+}
+
+.login div {
+  margin: 0;
+  display: flex;
+  width: 70%;
+  height: 500px;
+  background-color: white;
+}
+
+.titulo {
+  color: #2c3625;
+  padding-bottom: 10%;
+  font-weight: bold;
+}
+
+.descripcion {
+  font-size: 20px;
+}
+
+#login2 {
+  width: 30%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: #83ad6a 5px solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#login2 p {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px 20px 20px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}
+
+#login2 div {
+  height: 50px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0px 29px 20px;
+}
+
+#login2 input {
+  width: 98.5%;
+  height: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.button {
+  display: inherit;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+button {
+  background: linear-gradient(90deg, #8eb478, #83ad6a); /* Degradado verde */
+  color: #194602;
+  text-align: center;
+  font-size: x-large;
+  padding: 0px 0px;
+  border: none; /* Sin borde */
+  width: 80%; /* Ancho del botón ajustado para que sea más pequeño */
+  margin: 0px auto; /* Centra el botón dentro del contenedor */
+}
+
+button:hover {
+  transform: scale(1.03); /* Pequeño aumento en tamaño al hacer hover */
+  box-shadow: 0 6px 8px rgba(185, 178, 178, 0.2); /* Aumenta la sombra al hacer hover */
+  cursor: pointer;
+}
+
+#login2:hover {
+  transform: scale(1.03); /* Pequeño aumento en tamaño al hacer hover */
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 100); /* Aumenta la sombra al hacer hover */
+}

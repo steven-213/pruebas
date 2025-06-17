@@ -1,0 +1,19 @@
+
+#alert {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  background-color: rgba(255, 255, 255, 0.875);
+  width: 100%;
+  height: 100%;
+  padding: 50px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  position: fixed;
+}
+img{
+    width: 400px;
+    height: 400px;
+    
+}

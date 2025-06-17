@@ -1,0 +1,153 @@
+* {
+    margin: 10;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header {
+    background-color: #8eb478;
+    width: 100%;
+    height: inherit;
+  }
+  header ul {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    height: inherit;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+  }
+  #speciallogo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+  }
+  #tienda a {
+    color: #394630;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #394630;
+  }
+  #login h2 {
+    padding: 0;
+    margin: 0;
+  }
+  #speciallogo img {
+    width: 50px;
+    height: 50px;
+  }
+  #login img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  #login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8eb478;
+  }
+
+  .nav li {
+    margin: 0 10px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px ;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2C3625;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 2px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    color: #3d4536;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input, .input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    background-color: #8eb478;
+    color: #2C3625;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #76a06c;
+  }
+  
+  button#mostrar {
+    margin-top: 10px;
+    background: none;
+    color: #537c36;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+   
+    padding: 3px 10px;
+  border: #76a06c 5px double;
+ 
+ 
+  }

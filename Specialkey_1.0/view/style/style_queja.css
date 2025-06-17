@@ -1,0 +1,111 @@
+html{
+
+    /*#394630*/
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #8eb478;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+}
+body {
+    margin: 0;
+    width: 100%;  
+}
+header{
+    background-color: #8eb478;
+    width: 100%;
+    height: inherit;
+    
+}
+header ul  {
+ margin: 0;
+ padding: 10px;
+ display: flex;
+height: inherit;
+justify-content: space-around;
+list-style: none;
+align-items: center;
+}
+#tienda{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    gap: 5px;
+    
+}
+#speciallogo{
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+width: 33%;
+
+}
+#speciallogo img{
+    width: 50px;
+    height: 50px;
+}
+
+#login{
+display: flex;
+flex-direction: column;
+width: 33%;
+align-items: center;
+
+
+}
+#login img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+#login h2{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color:#2C3625;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+section input{
+padding-top: 10px;
+margin-top: 10px;
+}
+section form input[type="text"]{
+    height: 150px;
+}
+
+
+
+button{
+    background-color: #8eb478;
+    color: #2C3625;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #76a06c;
+  }

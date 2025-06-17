@@ -1,0 +1,287 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    width: 100%;  
+}
+header{
+    background-color: #2C3625;;
+    width: 100%;
+    height: inherit;
+    
+}
+#tienda{
+    margin-left: -20%;
+}
+header ul  {
+ margin: 0;
+ padding: 10px;
+ display: flex;
+width: 100%;
+height: inherit;
+justify-content: space-between;
+list-style: none;
+align-items: center;
+}
+
+#speciallogo{
+display: flex;
+gap: 10px;
+align-items: center;
+width: 33%;
+
+}
+#speciallogo img{
+    width: 50px;
+    height: 50px;
+}
+
+#login{
+display: flex;
+flex-direction: column;
+width: 15%;
+align-items: center;
+transition: 0.5s;
+}
+#login:hover{
+    box-shadow: 0 px 3 px 6px 0 black;}
+
+#login img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+article{
+    width: 100%;
+    background-color: white;
+    height:inherit;
+    display: flex;
+     text-align: center;
+     align-items: center;
+    padding: 30px 0px;
+    flex-direction: column;
+}
+div{
+    display: flex;  
+    text-align: left;
+    align-items: center;
+   width: 60%;
+height: 300px;
+ padding: 50px 16px 5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+  padding-top: 5% ;
+  margin: 30px;
+}
+
+div div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+}
+div img{
+width: 300px;
+height: 350px;
+object-fit: cover;
+margin: 0;
+padding: 0;
+border-radius: 20px;
+}
+h1{
+    padding-bottom: 20px;
+}
+.titulo{
+    font-size: 8vh;
+    
+}
+#carrito-recibo{
+    background-color: beige ;
+    height:inherit;
+    display: flex;
+     text-align: center;
+     align-items: center;
+    padding: 30px 0px;
+    flex-direction: column;
+
+   
+}
+#carrito div{
+background-color:#2C3625;
+display: flex;
+
+}
+#agregar_mas{
+    background-color: rebeccapurple;
+}
+#button1{
+    height: 100px;
+    width:62%;
+    font-size:60px;
+    color: #2C3625;
+    background-color: white;
+    border-radius: 5px;
+}
+.productos{
+    
+        width: 100%;
+        background-color: white;
+        height:inherit;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 30px 0px;
+        flex-direction: column;
+    
+
+}
+#contenedor-alert{
+    visibility: hidden;
+    display: flex;  
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.875);
+    width: 80%;
+    height: 600px;
+    padding: 50px 16px ;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+ position: fixed;
+}
+#contenedor-alert:hover{
+    box-shadow: 0 8px 100px 0 rgba(0, 0, 0, 0.613);
+}
+.productos div:hover{
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+#contenedor{
+    background-color: rebeccapurple;
+    margin: 0px 10% ;
+    overflow: hidden;
+    width: inherit;
+    background-color: white;
+    height:100%;
+    display: flex;
+     text-align: center;
+     align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    width:100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+#contenedor div{
+transition: none;
+border:#2C3625 1px solid;
+border-radius: 5px;
+height: 100%;
+padding-bottom: 0;
+margin-top: 0px;
+}
+#button2{
+    height: auto;
+    width: auto;
+    font-size: 50px;
+    color: #2C3625;
+    background-color: white;
+    border-radius: 5px;
+}
+.div-productos{
+border:none !important;
+margin: 0;
+
+}
+.eliminar{
+    visibility: hidden;
+}
+.div-productos h1 {
+    padding-bottom: 1px;
+}
+.div-productos p {
+    margin: 0;
+}
+.div-productos:hover{
+    box-shadow: none !important;
+}
+#contenedor button{
+    background-color: white;
+    width: 29%;
+    color: #2C3625;
+    margin-bottom:20px;
+    height: inherit;
+    border-radius: 3px;
+    border-color: #2C3625;
+}
+#contenedor div {
+    height: auto;
+}
+.botones_eliminar{
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    color: #2C3625;
+    background-color: white;
+    border-radius: 5px;
+    visibility: visible;
+}
+section div{
+    height: auto;
+}
+section div h1{
+    font-size: 50px;
+}
+#totall{
+margin: 0;
+padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+#compras{
+    margin: 0;
+    padding: 0;
+}
+#compras div {
+    height:100%;
+
+}
+#pita{
+    height: auto;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C3625;
+    font-weight: 600;
+}
+
+footer section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #2C3625;
+    color: white;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    margin-top: 10px;
+}
+footer h2{
+    display: flex;
+    justify-content: center;
+    background-color: #2C3625;
+}

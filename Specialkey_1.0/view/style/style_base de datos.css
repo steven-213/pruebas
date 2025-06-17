@@ -1,0 +1,149 @@
+/* Estilo global */
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Estilos del header */
+header {
+  background-color: #8eb478;
+  width: 100%;
+}
+
+header ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+
+/* Estilos del logo y tienda */
+#tienda, #speciallogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#speciallogo {
+  gap: 10px;
+}
+
+#speciallogo img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Estilos del login */
+#login {
+  display: flex;
+  align-items: center;
+}
+
+#login img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+
+#login p, #login h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* Estilos del botón */
+button {
+  background-color: #8eb478;
+  color:  #2C3625;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 10px;
+}
+
+.button {
+  color:  #2C3625;
+  background-color: #8eb478;
+  width: inherit;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.button:hover {background-color: #76a06c;};
+button:hover{background-color: #76a06c;};
+
+/* Estilos de la tabla */
+table {
+  border: solid;
+  width: 100%;
+}
+
+tr {
+  display: flex;
+}
+
+th {
+  border: solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#eliminar button {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  padding: 4px;
+}
+
+/* Estilos del contenedor */
+div {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos de enlaces */
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+.imagen_producto{
+  width: 10vh;
+  height: auto;
+  object-fit: cover;
+}

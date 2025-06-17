@@ -1,0 +1,28 @@
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+      align-items: center; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width:100%;
+  background-color: white;
+  padding: 20px;
+}
+.container div{
+  padding-bottom:10px ;
+  width: 100%;
+}
+.container button{
+  display: flex;
+}
