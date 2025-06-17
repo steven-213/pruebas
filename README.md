@@ -1,4 +1,5 @@
-# PROYECTO DE PRUEBA
+# PROYECTO FINAL EN TECNICO :)
+
 
 *un simple proyecto para probar caracteristicas nuevas*
 
